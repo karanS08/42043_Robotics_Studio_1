@@ -6,7 +6,7 @@ MC      ?= 50
 TUNE    ?= 15
 export MUJOCO_GL ?= egl
 
-.PHONY: all calib noise model tune mc plots report video test clean \
+.PHONY: all calib noise model tune mc plots report video gifs test clean \
         hw-install hw-check hw-identify hw-calib hw-segment hw-noise hw-dry hw-run hw-compare
 all: calib noise model tune mc plots report
 
@@ -16,6 +16,7 @@ model:  ; $(CAP) $(PY) scripts/model_analysis.py
 tune:   ; UR3_WORKERS=$(WORKERS) $(CAP) $(PY) scripts/tuning.py $(TUNE)
 mc:     ; UR3_WORKERS=$(WORKERS) $(CAP) $(PY) scripts/monte_carlo.py $(MC)
 plots:  ; $(CAP) $(PY) scripts/make_plots.py && $(CAP) $(PY) scripts/make_frame_diagram.py
+gifs:   ; $(PY) scripts/make_gifs.py
 report: ; $(PY) scripts/make_report.py
 video:  ; $(CAP) $(PY) scripts/make_video.py
 test:   ; PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 PYTHONPATH= $(PY) -m pytest

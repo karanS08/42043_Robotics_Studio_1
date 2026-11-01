@@ -21,6 +21,17 @@ feed-forward — takes the pick from **50/50 to 0/50**. Velocity is never measur
 
 ![moving object](results/fig_moving_object.png)
 
+The same cube, moving at the same speed, with the only difference being the filter's process model:
+
+| Constant-velocity model — **50/50** | Static-object model — **0/50** |
+|---|---|
+| ![moving object, CV filter](results/gif/moving.gif) | ![moving object, static model](results/gif/moving_static_model.gif) |
+
+Left half of each clip is the scene, right half is what the estimator sees: wrist camera, object estimate
+against truth with its ±2σ band, and the shoulder-lift velocity that is never measured. More clips, including
+camera dropout and the disturbance cases, are on the [project page](../README.md#watch-it-run); the full-size
+H.264 renders are in [`results/video/`](results/video/).
+
 ## 1. Quick start
 
 ```bash

@@ -27,6 +27,39 @@ pick from **50/50 to 0/50**. Velocity is never measured; it is reconstructed.
 
 ---
 
+## Watch it run
+
+Left half of each clip is the scene; right half is what the estimator sees — wrist camera, object estimate
+against truth with its ±2σ band, and the shoulder-lift velocity that is **never measured**.
+
+### The headline: the same moving cube, with and without a velocity model
+
+| Constant-velocity object filter — **50/50** | Static-object model instead — **0/50** |
+|---|---|
+| ![moving object, CV filter](ur3_pick/results/gif/moving.gif) | ![moving object, static model](ur3_pick/results/gif/moving_static_model.gif) |
+| The filter reconstructs the cube's velocity from position measurements alone and the controller leads the target. | Identical code, one changed process model. The estimate lags behind the cube and the gripper closes on empty table. |
+
+### Nominal pick, static cube
+
+![nominal pick](ur3_pick/results/gif/nominal.gif)
+
+### Robustness
+
+| Condition | |
+|---|---|
+| **Camera dropout** — frames cut for 1 s mid-approach; the filter coasts on its own prediction | ![camera dropout](ur3_pick/results/gif/cam_dropout.gif) |
+| **4× detector noise** | ![4x noise](ur3_pick/results/gif/noise_x4.gif) |
+| **25 N external force** applied to the arm | ![25 N disturbance](ur3_pick/results/gif/force_25N.gif) |
+| **Oscillating object** | ![oscillating](ur3_pick/results/gif/oscillating.gif) |
+| **Moving object + camera dropout** together | ![moving with dropout](ur3_pick/results/gif/moving_dropout.gif) |
+
+<sub>These are GIFs because GitHub will not play an mp4 that lives in a repository — only files uploaded
+through its web UI get a player. The original H.264 renders are in
+[`ur3_pick/results/video/`](ur3_pick/results/video/) at full 1240×480; regenerate the GIFs with
+`make gifs`.</sub>
+
+---
+
 ## Repository layout
 
 ```
