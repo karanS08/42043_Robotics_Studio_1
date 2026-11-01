@@ -1,0 +1,33 @@
+/home/karan/Development/RS1/assignment_final/ur3_pick/scripts/monte_carlo.py:96: RuntimeWarning: All-NaN slice encountered
+  f"grasp err med {1000*np.nanmedian(g):5.2f} mm p95 {1000*np.nanpercentile(g,95):5.2f} mm  errors {sum('error' in r for r in rs)}")
+/home/karan/Development/RS1/assignment_final/.venv/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:1409: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+1350 trials in 520 s
+nominal                      success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  1.07 mm p95  1.24 mm  errors 0
+noise_x2                     success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  1.08 mm p95  1.41 mm  errors 0
+noise_x4                     success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  1.59 mm p95  2.30 mm  errors 0
+noise_x8                     success  45/50 ( 90.0 %, 95% CI 78.6- 95.7)  grasp err med  4.05 mm p95  5.84 mm  errors 0
+cam_dropout                  success  48/50 ( 96.0 %, 95% CI 86.5- 98.9)  grasp err med  6.92 mm p95 10.58 mm  errors 0
+force_10N                    success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  1.09 mm p95  1.60 mm  errors 0
+force_25N                    success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  1.11 mm p95  2.84 mm  errors 0
+payload_0.5kg                success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  1.15 mm p95  1.45 mm  errors 0
+handeye_5mm_1deg             success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  5.24 mm p95  6.81 mm  errors 0
+handeye_10mm_2deg            success  49/50 ( 98.0 %, 95% CI 89.5- 99.6)  grasp err med 10.67 mm p95 13.14 mm  errors 0
+handeye_20mm_4deg            success  10/50 ( 20.0 %, 95% CI 11.2- 33.0)  grasp err med 21.37 mm p95 29.34 mm  errors 0
+moving_0.02                  success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  1.12 mm p95  1.41 mm  errors 0
+moving_0.04                  success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  1.18 mm p95  1.58 mm  errors 0
+moving_0.06                  success  34/50 ( 68.0 %, 95% CI 54.2- 79.2)  grasp err med  1.50 mm p95  1.96 mm  errors 0
+oscillating                  success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  1.17 mm p95  3.26 mm  errors 0
+moving_noise_x4              success  46/50 ( 92.0 %, 95% CI 81.2- 96.8)  grasp err med  1.50 mm p95  2.30 mm  errors 0
+moving_dropout               success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  2.92 mm p95  4.49 mm  errors 0
+moving_force_25N             success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  1.28 mm p95  2.73 mm  errors 0
+abl_servo_only               success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  1.09 mm p95  1.23 mm  errors 0
+abl_no_objkf                 success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  0.89 mm p95  1.03 mm  errors 0
+abl_no_objkf_noise_x4        success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  1.38 mm p95  1.86 mm  errors 0
+abl_p90_height_noise_x4      success  48/50 ( 96.0 %, 95% CI 86.5- 98.9)  grasp err med  6.42 mm p95  7.57 mm  errors 0
+abl_servo_only_force_25N     success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  1.10 mm p95  3.11 mm  errors 0
+abl_mov_static_model         success   0/50 (  0.0 %, 95% CI  0.0-  7.1)  grasp err med   nan mm p95   nan mm  errors 0
+abl_mov_no_objkf             success   0/50 (  0.0 %, 95% CI  0.0-  7.1)  grasp err med   nan mm p95   nan mm  errors 0
+abl_mov_no_vel_ff            success   0/50 (  0.0 %, 95% CI  0.0-  7.1)  grasp err med   nan mm p95   nan mm  errors 0
+abl_mov_no_lead              success  50/50 (100.0 %, 95% CI 92.9-100.0)  grasp err med  1.11 mm p95  1.59 mm  errors 0
+EXIT 0

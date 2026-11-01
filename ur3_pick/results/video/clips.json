@@ -1,0 +1,42 @@
+{
+ "nominal": {
+  "success": true,
+  "grasp_err_norm": 0.001061996776151613,
+  "time": 7.489999999999397
+ },
+ "moving": {
+  "success": true,
+  "grasp_err_norm": 0.0014482466641939967,
+  "time": 7.0599999999994445
+ },
+ "moving_static_model": {
+  "success": false,
+  "grasp_err_norm": NaN,
+  "time": 16.31000000000184
+ },
+ "moving_dropout": {
+  "success": true,
+  "grasp_err_norm": 0.003596055225871369,
+  "time": 7.069999999999443
+ },
+ "oscillating": {
+  "success": true,
+  "grasp_err_norm": 0.0011185129568444657,
+  "time": 8.519999999999515
+ },
+ "noise_x4": {
+  "success": true,
+  "grasp_err_norm": 0.002365986112014083,
+  "time": 7.819999999999361
+ },
+ "cam_dropout": {
+  "success": true,
+  "grasp_err_norm": 0.007368657208931018,
+  "time": 9.659999999999895
+ },
+ "force_25N": {
+  "success": true,
+  "grasp_err_norm": 0.001061996776151613,
+  "time": 7.489999999999397
+ }
+}

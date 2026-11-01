@@ -1,0 +1,23 @@
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Editor
+.vscode/
+.idea/
+
+# Upstream UR3e clone. Not tracked: it carries its own .git history. The MJCF and meshes this
+# project uses are vendored into ur3_pick/model/ (BSD-3-Clause, licence redistributed there).
+third_party_ur3e/
+
+# Subject material: the assignment brief is UTS teaching material, not mine to redistribute.
+Sensors_Control_Integrated_Project*.pdf
+
+# Regenerable scratch output
+ur3_pick/results/segment/
+
+# Hardware run logs are written per session; keep them locally, commit one deliberately if it is
+# evidence for the report.
+ur3_pick/results/hw_*.npz

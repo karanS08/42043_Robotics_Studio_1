@@ -1,0 +1,2380 @@
+[
+{
+"seed": 0,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.129999999999437,
+"cube_xy": [
+0.2373265518589309,
+-0.09208531449445188
+],
+"cube_yaw": -0.7210371025026309,
+"grasp_err": [
+-2.8282581643655733e-05,
+-0.0016737294368782787,
+0.00045057477933650676
+],
+"grasp_err_norm": 0.0017335477391959679,
+"obj_err_at_grasp": [
+0.0009623420634216062,
+0.0006083543774243194,
+-0.0007530171147943077,
+-0.0024429252775387544
+],
+"obj_xy_err_at_grasp": 0.0011385066076057206,
+"raw_xy_err_at_grasp": 0.0026194960717346605,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007906128343734997,
+"tcp_track_rmse": 0.0007188980001690058,
+"q_est_rmse": 0.00027007786748653933,
+"qd_est_rmse": 0.005208661131165479,
+"nees_joint_mean": 3.316473462728474,
+"nis_joint_mean": 5.305643395884996,
+"obj_nees_mean": 4.3386808300782,
+"nis_obj_mean": 2.1591623680368093,
+"effort_rms": 3.356475248465693,
+"u_chatter": 0.004986302337841593,
+"obj_updates": 44,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007177844428226025,
+"obj_vel_err_at_grasp": 0.0004346533085824483,
+"grasp_check": {
+"rel": [
+-6.13547037540641e-05,
+-0.0016264835647274137,
+0.0001897148556148637
+],
+"psi": -0.005599025994906359,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 1,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.089999999999441,
+"cube_xy": [
+0.22606394622302312,
+0.18018547853037414
+],
+"cube_yaw": -0.5589527732652728,
+"grasp_err": [
+0.0008394169474494993,
+1.550267269628622e-05,
+0.0003376185514744937
+],
+"grasp_err_norm": 0.0009049018901659445,
+"obj_err_at_grasp": [
+0.0007479540385701144,
+0.00022275632517704258,
+-0.0008080621897043165,
+0.00034303536912994037
+],
+"obj_xy_err_at_grasp": 0.0007804201587732883,
+"raw_xy_err_at_grasp": 0.0011859656918108408,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0008098789769802684,
+"tcp_track_rmse": 0.0007511513763122495,
+"q_est_rmse": 0.0002840808225763369,
+"qd_est_rmse": 0.005602387098666991,
+"nees_joint_mean": 3.6625483372865837,
+"nis_joint_mean": 5.566313222849466,
+"obj_nees_mean": 3.802467944469637,
+"nis_obj_mean": 1.4044511445595067,
+"effort_rms": 2.941899916844266,
+"u_chatter": 0.004981053300923358,
+"obj_updates": 38,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007273021690929715,
+"obj_vel_err_at_grasp": 0.0006927012258845485,
+"grasp_check": {
+"rel": [
+0.0008448329212148253,
+-2.521546743221398e-06,
+0.0001327420673874698
+],
+"psi": 0.006262820417844317,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 2,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.109999999999439,
+"cube_xy": [
+0.20354509208243848,
+-0.08060354263435068
+],
+"cube_yaw": 0.49358463910990147,
+"grasp_err": [
+0.000852923902413434,
+-0.0014051486844846354,
+0.00036359385609739935
+],
+"grasp_err_norm": 0.0016834852244700098,
+"obj_err_at_grasp": [
+8.253260131152462e-05,
+0.0010882620499831908,
+-0.0007196188903651306,
+-0.004706649057557799
+],
+"obj_xy_err_at_grasp": 0.001091387153906836,
+"raw_xy_err_at_grasp": 0.0006935451557859426,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0008060517801827342,
+"tcp_track_rmse": 0.0007395387731476223,
+"q_est_rmse": 0.0002808091500657825,
+"qd_est_rmse": 0.005359218387532028,
+"nees_joint_mean": 3.6116837198060137,
+"nis_joint_mean": 5.762783063972524,
+"obj_nees_mean": 4.0463157318321015,
+"nis_obj_mean": 1.0770159277541909,
+"effort_rms": 3.2020628792426753,
+"u_chatter": 0.00495042073517879,
+"obj_updates": 44,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007181216013541325,
+"obj_vel_err_at_grasp": 0.0004906184283322882,
+"grasp_check": {
+"rel": [
+0.0009748994028702567,
+-0.0013648723259544516,
+0.00029628701537337424
+],
+"psi": 0.005482959594538261,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 3,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.00999999999945,
+"cube_xy": [
+0.18770842504292617,
+-0.10527579736156012
+],
+"cube_yaw": 0.4732408233033052,
+"grasp_err": [
+0.0009573588216894919,
+-0.0016816116732900563,
+0.00046306801733403353
+],
+"grasp_err_norm": 0.0019896697519663276,
+"obj_err_at_grasp": [
+0.00011431609336370885,
+0.0012148669143926816,
+-0.0007962653246133232,
+-0.0015170613904224028
+],
+"obj_xy_err_at_grasp": 0.0012202334976912964,
+"raw_xy_err_at_grasp": 0.000562741565586248,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0008271481274075837,
+"tcp_track_rmse": 0.000763642169860871,
+"q_est_rmse": 0.0002810552806355303,
+"qd_est_rmse": 0.005496269788801982,
+"nees_joint_mean": 3.6607969929919606,
+"nis_joint_mean": 5.507839541048802,
+"obj_nees_mean": 4.989719734976258,
+"nis_obj_mean": 2.1946154238694042,
+"effort_rms": 3.002981829619955,
+"u_chatter": 0.005159869947801731,
+"obj_updates": 43,
+"obj_rejected": 1,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.0072159394124813305,
+"obj_vel_err_at_grasp": 0.00036111956576022076,
+"grasp_check": {
+"rel": [
+0.0008950581875851491,
+-0.0017372393065189465,
+0.00017128180176174902
+],
+"psi": -0.006107534133275472,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 4,
+"success": false,
+"lifted": false,
+"diverged": false,
+"final_phase": 6,
+"time": 4.729999999999701,
+"cube_xy": [
+0.2648750495015131,
+0.004531021125744633
+],
+"cube_yaw": 0.7480818635848514,
+"grasp_err": null,
+"grasp_err_norm": NaN,
+"obj_err_at_grasp": null,
+"obj_xy_err_at_grasp": NaN,
+"raw_xy_err_at_grasp": NaN,
+"cube_moved_before_grasp": 0.283679999999982,
+"track_rmse": 0.0009508790866313288,
+"tcp_track_rmse": 0.0008461168702767422,
+"q_est_rmse": 0.000233851917925583,
+"qd_est_rmse": 0.004616754835843456,
+"nees_joint_mean": 2.4082239044262677,
+"nis_joint_mean": 5.712194851933866,
+"obj_nees_mean": 5.223393361991112,
+"nis_obj_mean": 3.6395712682610957,
+"effort_rms": 3.5375640643122197,
+"u_chatter": 0.006267695183172812,
+"obj_updates": 37,
+"obj_rejected": 1,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.008935017709470326,
+"obj_vel_err_at_grasp": null,
+"grasp_check": null,
+"condition": "moving_0.06"
+},
+{
+"seed": 5,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.299999999999418,
+"cube_xy": [
+0.25245026313708424,
+0.12317631589459749
+],
+"cube_yaw": 0.024073334991067674,
+"grasp_err": [
+0.00048814647656643536,
+-0.00017880405775584857,
+0.00026585340560925655
+],
+"grasp_err_norm": 0.000583897171536412,
+"obj_err_at_grasp": [
+0.000484513431661282,
+0.00048345727067897193,
+-0.0007642909672893605,
+-0.013441695028956757
+],
+"obj_xy_err_at_grasp": 0.0006844590550446042,
+"raw_xy_err_at_grasp": 0.001564100257433468,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007848973264630915,
+"tcp_track_rmse": 0.0007516694921929935,
+"q_est_rmse": 0.00028939674855241166,
+"qd_est_rmse": 0.00553256591898704,
+"nees_joint_mean": 3.7354921878722473,
+"nis_joint_mean": 5.635464149736826,
+"obj_nees_mean": 3.2311014120061907,
+"nis_obj_mean": 2.1037392880636925,
+"effort_rms": 3.3407935069351797,
+"u_chatter": 0.004844190693890302,
+"obj_updates": 42,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007118144112369992,
+"obj_vel_err_at_grasp": 0.0005295968807820207,
+"grasp_check": {
+"rel": [
+0.0005721176138167479,
+-2.2652792624686747e-05,
+0.00017441568291472407
+],
+"psi": -0.00036749273639014035,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 6,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.039999999999447,
+"cube_xy": [
+0.2284347916324749,
+-0.06269165207466462
+],
+"cube_yaw": -0.20566869878653682,
+"grasp_err": [
+0.00024029181860826167,
+-0.0014223304197458653,
+0.00025888718530299947
+],
+"grasp_err_norm": 0.0014655328572702232,
+"obj_err_at_grasp": [
+0.0004959780866365393,
+0.0007730278738899699,
+-0.0008794588958200358,
+-0.0067670886574746625
+],
+"obj_xy_err_at_grasp": 0.0009184586850993842,
+"raw_xy_err_at_grasp": 0.0029805155485663213,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007841475500829449,
+"tcp_track_rmse": 0.000726689180298522,
+"q_est_rmse": 0.0002817950685958241,
+"qd_est_rmse": 0.0053321410510710635,
+"nees_joint_mean": 3.643782550259241,
+"nis_joint_mean": 5.588114547552025,
+"obj_nees_mean": 4.858173578884021,
+"nis_obj_mean": 2.169983967169626,
+"effort_rms": 3.444950435019726,
+"u_chatter": 0.004847825941965614,
+"obj_updates": 42,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007244709644139343,
+"obj_vel_err_at_grasp": 0.00018350922123849995,
+"grasp_check": {
+"rel": [
+0.0001350749222192504,
+-0.001438350105564611,
+-2.7904924380236265e-05
+],
+"psi": -0.0020001896872772207,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 7,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.179999999999431,
+"cube_xy": [
+0.23625859199442004,
+0.15888552038783021
+],
+"cube_yaw": 0.4330460695870657,
+"grasp_err": [
+9.183526662623488e-05,
+-2.1270249132155533e-05,
+0.0004619297180140068
+],
+"grasp_err_norm": 0.0004714501077303466,
+"obj_err_at_grasp": [
+0.00015749753439317504,
+0.0005788315720653969,
+-0.000722342153380573,
+-0.0008266947925854584
+],
+"obj_xy_err_at_grasp": 0.0005998762056954987,
+"raw_xy_err_at_grasp": 0.0007766001809321356,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0008197029962532532,
+"tcp_track_rmse": 0.000751459975481489,
+"q_est_rmse": 0.000283748201083538,
+"qd_est_rmse": 0.005389829014506229,
+"nees_joint_mean": 3.606232056416781,
+"nis_joint_mean": 5.404947752111254,
+"obj_nees_mean": 2.7853871617589774,
+"nis_obj_mean": 0.99391177368878,
+"effort_rms": 3.0632232444722023,
+"u_chatter": 0.005163557863241093,
+"obj_updates": 39,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007189591597557504,
+"obj_vel_err_at_grasp": 0.0003547704633096682,
+"grasp_check": {
+"rel": [
+0.00011032198848439063,
+-8.435503514180012e-05,
+0.00018410972175133053
+],
+"psi": -0.0011105795818626696,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 8,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.349999999999413,
+"cube_xy": [
+0.20942750489450046,
+0.19491073733517023
+],
+"cube_yaw": -0.28476834899467707,
+"grasp_err": [
+0.0008095764487750878,
+-4.093133368022004e-05,
+0.0004906167099473959
+],
+"grasp_err_norm": 0.0009475200032546707,
+"obj_err_at_grasp": [
+0.0006183032051367554,
+0.0004371166543550298,
+-0.0007201226943153241,
+-0.003909368913710631
+],
+"obj_xy_err_at_grasp": 0.0007572118745746921,
+"raw_xy_err_at_grasp": 0.004675766969676086,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0008093722303883907,
+"tcp_track_rmse": 0.0007450127784955488,
+"q_est_rmse": 0.0002897578732629792,
+"qd_est_rmse": 0.0053763258956119435,
+"nees_joint_mean": 3.862570678161103,
+"nis_joint_mean": 5.704642481365026,
+"obj_nees_mean": 3.08980395428876,
+"nis_obj_mean": 1.084999997292051,
+"effort_rms": 2.8792578080559044,
+"u_chatter": 0.004966374878294886,
+"obj_updates": 39,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007164984583477254,
+"obj_vel_err_at_grasp": 0.0005077254563472166,
+"grasp_check": {
+"rel": [
+0.0007296491260618734,
+-8.158237573670079e-05,
+0.0002474424509737955
+],
+"psi": -0.0017633642731209598,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 9,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.079999999999442,
+"cube_xy": [
+0.2583224283573076,
+-0.08527311636497786
+],
+"cube_yaw": 0.16202473521668215,
+"grasp_err": [
+0.000537333936201716,
+-0.001574377832370767,
+0.0003959662977893777
+],
+"grasp_err_norm": 0.001710024159782408,
+"obj_err_at_grasp": [
+0.00028168816469992253,
+0.0010627377988776943,
+-0.0008465451272719089,
+0.0005565038021776436
+],
+"obj_xy_err_at_grasp": 0.0010994361515319648,
+"raw_xy_err_at_grasp": 0.0010493502426454047,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007828364264970923,
+"tcp_track_rmse": 0.0007418469401014366,
+"q_est_rmse": 0.00029563275975413286,
+"qd_est_rmse": 0.00571860074733631,
+"nees_joint_mean": 3.924648223225557,
+"nis_joint_mean": 5.496734550924364,
+"obj_nees_mean": 4.247775089454797,
+"nis_obj_mean": 1.7854276259224722,
+"effort_rms": 3.5321480442740656,
+"u_chatter": 0.004714478226878443,
+"obj_updates": 44,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007205391154281395,
+"obj_vel_err_at_grasp": 0.000258930005009791,
+"grasp_check": {
+"rel": [
+0.0005299251852234221,
+-0.001587137388732963,
+0.0001825803480337571
+],
+"psi": -0.002138263167508203,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 10,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.069999999999443,
+"cube_xy": [
+0.2660401538666078,
+-0.11692727596834125
+],
+"cube_yaw": 0.515920019343804,
+"grasp_err": [
+0.0009332751983429408,
+-0.00165190375629987,
+0.0003836699533020084
+],
+"grasp_err_norm": 0.0019357146610454862,
+"obj_err_at_grasp": [
+-2.377672709569234e-05,
+0.0012222766614513325,
+-0.0008218733535008682,
+0.0077675226652507146
+],
+"obj_xy_err_at_grasp": 0.0012225079017658734,
+"raw_xy_err_at_grasp": 0.004354786944036756,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007891948570262504,
+"tcp_track_rmse": 0.000731079797745987,
+"q_est_rmse": 0.0002845485320862668,
+"qd_est_rmse": 0.005403357841115026,
+"nees_joint_mean": 3.5669403985772115,
+"nis_joint_mean": 5.522839202103398,
+"obj_nees_mean": 5.797556095245298,
+"nis_obj_mean": 1.905529504152603,
+"effort_rms": 3.410737186776338,
+"u_chatter": 0.0048426275612885586,
+"obj_updates": 45,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007268400346617958,
+"obj_vel_err_at_grasp": 0.00041778311900055504,
+"grasp_check": {
+"rel": [
+0.0009158047978199719,
+-0.0017627061003958676,
+0.00014368421060485524
+],
+"psi": 0.002921354922664765,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 11,
+"success": false,
+"lifted": false,
+"diverged": false,
+"final_phase": 6,
+"time": 4.639999999999711,
+"cube_xy": [
+0.19157131824922796,
+-0.00028885502395400997
+],
+"cube_yaw": 0.1594332473304847,
+"grasp_err": null,
+"grasp_err_norm": NaN,
+"obj_err_at_grasp": null,
+"obj_xy_err_at_grasp": NaN,
+"raw_xy_err_at_grasp": NaN,
+"cube_moved_before_grasp": 0.2782799999999826,
+"track_rmse": 0.00084966300698651,
+"tcp_track_rmse": 0.0008016051256053043,
+"q_est_rmse": 0.00023515503243322843,
+"qd_est_rmse": 0.0045252754197017495,
+"nees_joint_mean": 2.439953327878515,
+"nis_joint_mean": 5.298341435030402,
+"obj_nees_mean": 3.380162770293875,
+"nis_obj_mean": 1.313793894934744,
+"effort_rms": 3.3610801448196455,
+"u_chatter": 0.005354725990597109,
+"obj_updates": 34,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.008937602045156248,
+"obj_vel_err_at_grasp": null,
+"grasp_check": null,
+"condition": "moving_0.06"
+},
+{
+"seed": 12,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.119999999999438,
+"cube_xy": [
+0.20257420122976016,
+0.17870117714376982
+],
+"cube_yaw": -0.4880143987749939,
+"grasp_err": [
+0.000889105607754118,
+2.8514577192532673e-05,
+0.00044889341061077006
+],
+"grasp_err_norm": 0.0009964071240923852,
+"obj_err_at_grasp": [
+0.0007487703884042074,
+0.000317710199069815,
+-0.0007884821829632835,
+-0.0067557824278963174
+],
+"obj_xy_err_at_grasp": 0.0008133860492681007,
+"raw_xy_err_at_grasp": 0.0027570709870865296,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0008184464753766789,
+"tcp_track_rmse": 0.0007483565747689028,
+"q_est_rmse": 0.0002777553856407684,
+"qd_est_rmse": 0.005467787742131934,
+"nees_joint_mean": 3.498517735290642,
+"nis_joint_mean": 5.727766752402546,
+"obj_nees_mean": 2.9423901709734883,
+"nis_obj_mean": 0.8383526980964395,
+"effort_rms": 2.884136906069437,
+"u_chatter": 0.005091194883959316,
+"obj_updates": 38,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007273220617667375,
+"obj_vel_err_at_grasp": 0.0007471547339952636,
+"grasp_check": {
+"rel": [
+0.0008191630448488102,
+-0.00011818118220157482,
+0.0001491492196152428
+],
+"psi": -0.002929743695475384,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 13,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.289999999999419,
+"cube_xy": [
+0.2578317828314928,
+0.14212100597282362
+],
+"cube_yaw": 0.488554412357709,
+"grasp_err": [
+0.00015970329345723803,
+0.00012200933631752651,
+0.0005097479816200174
+],
+"grasp_err_norm": 0.0005479365153513806,
+"obj_err_at_grasp": [
+0.00015500620567809875,
+0.0006499923349156667,
+-0.0007365924801238308,
+0.006875948056503045
+],
+"obj_xy_err_at_grasp": 0.0006682192448948483,
+"raw_xy_err_at_grasp": 0.0014028486471748816,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0008059679010674848,
+"tcp_track_rmse": 0.0007474147434201824,
+"q_est_rmse": 0.00028520836898017244,
+"qd_est_rmse": 0.005407292158353148,
+"nees_joint_mean": 3.6058807913869066,
+"nis_joint_mean": 5.509339224956675,
+"obj_nees_mean": 2.807111126927567,
+"nis_obj_mean": 1.711291444512702,
+"effort_rms": 3.2883357455707922,
+"u_chatter": 0.005039783964266788,
+"obj_updates": 41,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007216522753806726,
+"obj_vel_err_at_grasp": 0.0005123446408829862,
+"grasp_check": {
+"rel": [
+0.00016910486323188197,
+6.432586538367335e-05,
+0.00021759216865909763
+],
+"psi": -0.003064057285469435,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 14,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.089999999999441,
+"cube_xy": [
+0.25478849870002007,
+-0.05562133326629737
+],
+"cube_yaw": 0.3184621565052399,
+"grasp_err": [
+0.0008576435806609677,
+-0.0017024966890497543,
+0.00038239936507556213
+],
+"grasp_err_norm": 0.0019442933837475595,
+"obj_err_at_grasp": [
+0.00019602401004664705,
+0.0012999222717848258,
+-0.0006769828146117839,
+-0.0012600965166986722
+],
+"obj_xy_err_at_grasp": 0.0013146190798847361,
+"raw_xy_err_at_grasp": 0.0007987948550387912,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007504589805366436,
+"tcp_track_rmse": 0.0007219524628985257,
+"q_est_rmse": 0.00026399856996612794,
+"qd_est_rmse": 0.005019487083105174,
+"nees_joint_mean": 3.0697660565599554,
+"nis_joint_mean": 5.396472609380535,
+"obj_nees_mean": 4.305881758285623,
+"nis_obj_mean": 1.2097099369617057,
+"effort_rms": 3.7029877124907116,
+"u_chatter": 0.004695553905377894,
+"obj_updates": 43,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007181431820301104,
+"obj_vel_err_at_grasp": 0.0009028409019419215,
+"grasp_check": {
+"rel": [
+0.0009065671852802523,
+-0.0016707040619078199,
+0.0002456331609538753
+],
+"psi": -0.00477029086594527,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 15,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.27999999999942,
+"cube_xy": [
+0.24234690311686372,
+0.126326844534423
+],
+"cube_yaw": -0.24440529333308936,
+"grasp_err": [
+0.0007044709869696187,
+-2.3189607787385373e-05,
+0.0006201626095636185
+],
+"grasp_err_norm": 0.0009388390659170711,
+"obj_err_at_grasp": [
+0.0006974988924244863,
+0.0004147951379342707,
+-0.0007047539614360998,
+-0.007187961292789424
+],
+"obj_xy_err_at_grasp": 0.0008115169199636541,
+"raw_xy_err_at_grasp": 0.0008390233124356861,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007868964845013499,
+"tcp_track_rmse": 0.0007582589918592543,
+"q_est_rmse": 0.00029218623604204376,
+"qd_est_rmse": 0.005570597986584786,
+"nees_joint_mean": 3.85773707261807,
+"nis_joint_mean": 5.562455891492957,
+"obj_nees_mean": 3.4813740497358827,
+"nis_obj_mean": 1.7225653053783383,
+"effort_rms": 3.244874895201353,
+"u_chatter": 0.0048227943376152535,
+"obj_updates": 41,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.00727667878580237,
+"obj_vel_err_at_grasp": 0.0004501569051368714,
+"grasp_check": {
+"rel": [
+0.0007846168474190912,
+-1.6706420678723812e-05,
+0.00042029703791750077
+],
+"psi": -0.002955273314543483,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 16,
+"success": false,
+"lifted": false,
+"diverged": false,
+"final_phase": 6,
+"time": 5.09999999999966,
+"cube_xy": [
+0.23102251549914288,
+-0.02770234180392578
+],
+"cube_yaw": -0.6376273439149414,
+"grasp_err": null,
+"grasp_err_norm": NaN,
+"obj_err_at_grasp": null,
+"obj_xy_err_at_grasp": NaN,
+"raw_xy_err_at_grasp": NaN,
+"cube_moved_before_grasp": 0.3058799999999796,
+"track_rmse": 0.0008482342346409887,
+"tcp_track_rmse": 0.0007556770360330002,
+"q_est_rmse": 0.00023987686276862407,
+"qd_est_rmse": 0.0046258743045249065,
+"nees_joint_mean": 2.63842707689097,
+"nis_joint_mean": 5.618360322624965,
+"obj_nees_mean": 3.7882323351255605,
+"nis_obj_mean": 1.1017032981549437,
+"effort_rms": 3.4891121820660547,
+"u_chatter": 0.005429792362670202,
+"obj_updates": 39,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.008510371965054008,
+"obj_vel_err_at_grasp": null,
+"grasp_check": null,
+"condition": "moving_0.06"
+},
+{
+"seed": 17,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.0599999999994445,
+"cube_xy": [
+0.2560567313518112,
+-0.13561076353235724
+],
+"cube_yaw": 0.09070492289446308,
+"grasp_err": [
+0.00037895198280272054,
+-0.0015714094918714858,
+0.00019714487130789626
+],
+"grasp_err_norm": 0.0016284343697849544,
+"obj_err_at_grasp": [
+0.00028702210690617624,
+0.0009074333226078424,
+-0.0008575002127494333,
+1.3697374349197489e-06
+],
+"obj_xy_err_at_grasp": 0.0009517441488299095,
+"raw_xy_err_at_grasp": 0.003874208455582627,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007803654356116304,
+"tcp_track_rmse": 0.000725179777502228,
+"q_est_rmse": 0.00026668825483605466,
+"qd_est_rmse": 0.005218897556423692,
+"nees_joint_mean": 3.2811448270248422,
+"nis_joint_mean": 5.691676909359573,
+"obj_nees_mean": 5.051006431640313,
+"nis_obj_mean": 1.943335490726731,
+"effort_rms": 3.2444948141233656,
+"u_chatter": 0.004822304005661695,
+"obj_updates": 46,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007206348841341109,
+"obj_vel_err_at_grasp": 0.0004193535675743327,
+"grasp_check": {
+"rel": [
+0.00045484324332103007,
+-0.0014890882893309485,
+4.88578101935383e-05
+],
+"psi": 0.004725139763758435,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 18,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.479999999999398,
+"cube_xy": [
+0.21593751922958154,
+0.08696587171528647
+],
+"cube_yaw": -0.3442819112401758,
+"grasp_err": [
+0.0006756391274755278,
+-0.00026540528089650037,
+4.3524769990528733e-05
+],
+"grasp_err_norm": 0.0007272018972103765,
+"obj_err_at_grasp": [
+0.0006271155794985162,
+0.00044180405003640955,
+-0.0008518074791785159,
+-0.00353279451969557
+],
+"obj_xy_err_at_grasp": 0.000767114573371106,
+"raw_xy_err_at_grasp": 0.0006870005416131975,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007838095018761096,
+"tcp_track_rmse": 0.000754280119493582,
+"q_est_rmse": 0.00028755330104627614,
+"qd_est_rmse": 0.005462017746977881,
+"nees_joint_mean": 3.6863715784935724,
+"nis_joint_mean": 5.448300557964179,
+"obj_nees_mean": 4.16509801150826,
+"nis_obj_mean": 1.7893274583065617,
+"effort_rms": 3.3654753529108645,
+"u_chatter": 0.004860539412679169,
+"obj_updates": 44,
+"obj_rejected": 1,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007051464302200366,
+"obj_vel_err_at_grasp": 0.0002616683818299916,
+"grasp_check": {
+"rel": [
+0.0006789581109246221,
+-0.00025238691450399933,
+-0.00013050338090268956
+],
+"psi": 0.010075316855704397,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 19,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.289999999999419,
+"cube_xy": [
+0.2178340916156335,
+0.1703477379266815
+],
+"cube_yaw": -0.355204192387464,
+"grasp_err": [
+0.0008080284670630106,
+-4.0560896042781556e-05,
+0.0004659072989245083
+],
+"grasp_err_norm": 0.0009336084838213089,
+"obj_err_at_grasp": [
+0.0006913650786521952,
+0.0003446057834196603,
+-0.0008062657303504993,
+-0.00017492885903158673
+],
+"obj_xy_err_at_grasp": 0.0007724887170347757,
+"raw_xy_err_at_grasp": 0.0012752614581575364,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007974211339991761,
+"tcp_track_rmse": 0.0007357863462904282,
+"q_est_rmse": 0.00027591051180423135,
+"qd_est_rmse": 0.005767138967093718,
+"nees_joint_mean": 3.5731590505738757,
+"nis_joint_mean": 5.63892449372664,
+"obj_nees_mean": 3.375751118222051,
+"nis_obj_mean": 1.8348279177636493,
+"effort_rms": 2.952793036196797,
+"u_chatter": 0.004950303301866882,
+"obj_updates": 40,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.0072665475196006645,
+"obj_vel_err_at_grasp": 0.00031635679289242615,
+"grasp_check": {
+"rel": [
+0.0007062426440226693,
+-0.00011045146920510366,
+0.00018579036987097035
+],
+"psi": -0.0036080959461854967,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 20,
+"success": false,
+"lifted": false,
+"diverged": false,
+"final_phase": 6,
+"time": 4.899999999999682,
+"cube_xy": [
+0.20520683663671435,
+-0.015541316078823142
+],
+"cube_yaw": -0.5942013173997693,
+"grasp_err": null,
+"grasp_err_norm": NaN,
+"obj_err_at_grasp": null,
+"obj_xy_err_at_grasp": NaN,
+"raw_xy_err_at_grasp": NaN,
+"cube_moved_before_grasp": 0.29387999999998093,
+"track_rmse": 0.0008690840057583981,
+"tcp_track_rmse": 0.0007729051063802765,
+"q_est_rmse": 0.0002308491829256398,
+"qd_est_rmse": 0.004562288336921567,
+"nees_joint_mean": 2.401186516817305,
+"nis_joint_mean": 5.538385283875652,
+"obj_nees_mean": 4.2353371227046255,
+"nis_obj_mean": 1.5854418055211763,
+"effort_rms": 3.4041266255664886,
+"u_chatter": 0.0055566188056996825,
+"obj_updates": 36,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.00875584723944486,
+"obj_vel_err_at_grasp": null,
+"grasp_check": null,
+"condition": "moving_0.06"
+},
+{
+"seed": 21,
+"success": false,
+"lifted": false,
+"diverged": false,
+"final_phase": 6,
+"time": 5.369999999999631,
+"cube_xy": [
+0.2503005829935724,
+0.042338811828387224
+],
+"cube_yaw": 0.32955493925075086,
+"grasp_err": null,
+"grasp_err_norm": NaN,
+"obj_err_at_grasp": null,
+"obj_xy_err_at_grasp": NaN,
+"raw_xy_err_at_grasp": NaN,
+"cube_moved_before_grasp": 0.32207999999997783,
+"track_rmse": 0.000847427351280065,
+"tcp_track_rmse": 0.0007945596709254844,
+"q_est_rmse": 0.0002301397153106805,
+"qd_est_rmse": 0.004460979992605138,
+"nees_joint_mean": 2.359369515766921,
+"nis_joint_mean": 5.15909434241741,
+"obj_nees_mean": 3.477184189173193,
+"nis_obj_mean": 2.2257604442420797,
+"effort_rms": 3.549176185434326,
+"u_chatter": 0.0054034821160624715,
+"obj_updates": 42,
+"obj_rejected": 1,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.008263709824321924,
+"obj_vel_err_at_grasp": null,
+"grasp_check": null,
+"condition": "moving_0.06"
+},
+{
+"seed": 22,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.029999999999448,
+"cube_xy": [
+0.21297122238888685,
+-0.12028184824996685
+],
+"cube_yaw": -0.6462909959717,
+"grasp_err": [
+-2.8349726246189186e-05,
+-0.0014845007871366837,
+0.000417891507383267
+],
+"grasp_err_norm": 0.0015424589478915563,
+"obj_err_at_grasp": [
+0.0009194631021376687,
+0.0005646847109434805,
+-0.0007594183760728096,
+-0.005139539774175916
+],
+"obj_xy_err_at_grasp": 0.0010790186369873077,
+"raw_xy_err_at_grasp": 0.0027244224761874434,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0008121556402788245,
+"tcp_track_rmse": 0.0007329306320919015,
+"q_est_rmse": 0.00026881327270935593,
+"qd_est_rmse": 0.005383179556393314,
+"nees_joint_mean": 3.172138640378963,
+"nis_joint_mean": 5.425494610424828,
+"obj_nees_mean": 4.49691355060745,
+"nis_obj_mean": 1.5884744331263,
+"effort_rms": 3.0378736727130433,
+"u_chatter": 0.005063830834154,
+"obj_updates": 45,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.0072486625797939935,
+"obj_vel_err_at_grasp": 0.0006698612151306669,
+"grasp_check": {
+"rel": [
+9.525543626061712e-06,
+-0.0014392137941944144,
+0.0001374048691869973
+],
+"psi": -0.0029755008643435055,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 23,
+"success": false,
+"lifted": false,
+"diverged": false,
+"final_phase": 6,
+"time": 5.589999999999606,
+"cube_xy": [
+0.2424539772591628,
+0.05658328835129223
+],
+"cube_yaw": -0.5833242883759266,
+"grasp_err": null,
+"grasp_err_norm": NaN,
+"obj_err_at_grasp": null,
+"obj_xy_err_at_grasp": NaN,
+"raw_xy_err_at_grasp": NaN,
+"cube_moved_before_grasp": 0.3352799999999764,
+"track_rmse": 0.0008022682339402606,
+"tcp_track_rmse": 0.0007726598077293091,
+"q_est_rmse": 0.000237791011647409,
+"qd_est_rmse": 0.00463064230068741,
+"nees_joint_mean": 2.553898558187688,
+"nis_joint_mean": 5.484403875755178,
+"obj_nees_mean": 5.967222097950376,
+"nis_obj_mean": 2.8271191423793796,
+"effort_rms": 3.4943312527970956,
+"u_chatter": 0.005030994714457524,
+"obj_updates": 38,
+"obj_rejected": 7,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.00854613464832055,
+"obj_vel_err_at_grasp": null,
+"grasp_check": null,
+"condition": "moving_0.06"
+},
+{
+"seed": 24,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.0599999999994445,
+"cube_xy": [
+0.2097241953002384,
+-0.037929073744342456
+],
+"cube_yaw": 0.11739789207181384,
+"grasp_err": [
+0.0008472906292816305,
+-0.0017294195567144302,
+0.0005627014886211559
+],
+"grasp_err_norm": 0.0020063465251325013,
+"obj_err_at_grasp": [
+0.0005977929696513173,
+0.0012323950055598831,
+-0.0006027107743331143,
+-0.004818106633972086
+],
+"obj_xy_err_at_grasp": 0.001369727667930193,
+"raw_xy_err_at_grasp": 0.0036527386736471754,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007559092369726478,
+"tcp_track_rmse": 0.0007011493276402027,
+"q_est_rmse": 0.00024025289665632158,
+"qd_est_rmse": 0.004672500179996708,
+"nees_joint_mean": 2.6349425167526217,
+"nis_joint_mean": 5.425747665086327,
+"obj_nees_mean": 4.538172569502298,
+"nis_obj_mean": 1.8777344546788146,
+"effort_rms": 3.4349634048132245,
+"u_chatter": 0.004824427120267791,
+"obj_updates": 41,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.0072105385028941845,
+"obj_vel_err_at_grasp": 0.0009090213260821267,
+"grasp_check": {
+"rel": [
+0.0008833568580373186,
+-0.001703127926122451,
+0.000328449768488339
+],
+"psi": 0.0026130381423308258,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 25,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.129999999999437,
+"cube_xy": [
+0.1944649109908807,
+-0.19987518593159856
+],
+"cube_yaw": -0.4451660910298405,
+"grasp_err": [
+0.0003112782795138092,
+-0.0016933895119157127,
+0.000508213531357775
+],
+"grasp_err_norm": 0.001795200044512687,
+"obj_err_at_grasp": [
+0.000857517586303369,
+0.0007725033769600959,
+-0.0007218277967765176,
+0.0054140333304502075
+],
+"obj_xy_err_at_grasp": 0.0011541654466471901,
+"raw_xy_err_at_grasp": 0.0024096957347898482,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0008307059644100972,
+"tcp_track_rmse": 0.0007225002355285891,
+"q_est_rmse": 0.00027095205400558953,
+"qd_est_rmse": 0.004971915759927399,
+"nees_joint_mean": 3.3597277275664883,
+"nis_joint_mean": 5.546531204494327,
+"obj_nees_mean": 6.560594423936276,
+"nis_obj_mean": 2.7211049371611713,
+"effort_rms": 2.836609554904539,
+"u_chatter": 0.005144910821283367,
+"obj_updates": 50,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.006931523084625071,
+"obj_vel_err_at_grasp": 0.0005157653612126918,
+"grasp_check": {
+"rel": [
+0.0003000945314593539,
+-0.001620543560150389,
+0.00025328330462765945
+],
+"psi": 0.015603960949376994,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 26,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.00999999999945,
+"cube_xy": [
+0.2242439025844414,
+-0.1062401904208334
+],
+"cube_yaw": -0.6792001451661048,
+"grasp_err": [
+0.00014313752144989584,
+-0.00161993054160915,
+0.0004932122231846432
+],
+"grasp_err_norm": 0.0016993885979327012,
+"obj_err_at_grasp": [
+0.0009436988583212402,
+0.0005440618610157155,
+-0.0007324340758211312,
+-0.0032514852197285116
+],
+"obj_xy_err_at_grasp": 0.0010892983263590815,
+"raw_xy_err_at_grasp": 0.001437487531818985,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0008074773190695972,
+"tcp_track_rmse": 0.0007207922688036244,
+"q_est_rmse": 0.00027110881090542944,
+"qd_est_rmse": 0.005134920949192895,
+"nees_joint_mean": 3.3575673184552923,
+"nis_joint_mean": 5.658156394598057,
+"obj_nees_mean": 4.839861155883316,
+"nis_obj_mean": 1.5246952980113329,
+"effort_rms": 3.167735169976921,
+"u_chatter": 0.0050641203373052125,
+"obj_updates": 44,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007287956318090166,
+"obj_vel_err_at_grasp": 0.0005490045264898821,
+"grasp_check": {
+"rel": [
+0.000133849673176579,
+-0.0015230324858656699,
+0.00022372701463753858
+],
+"psi": -0.004602758386532457,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 27,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.069999999999443,
+"cube_xy": [
+0.24279625948291067,
+-0.07447429111102735
+],
+"cube_yaw": -0.5950222056874062,
+"grasp_err": [
+-8.190104320266848e-05,
+-0.0013473512427456071,
+0.00023231858436322862
+],
+"grasp_err_norm": 0.00136968429824042,
+"obj_err_at_grasp": [
+0.0007141229416321171,
+0.0006384792861092448,
+-0.0008116840550352195,
+0.0003302623562392304
+],
+"obj_xy_err_at_grasp": 0.0009579286897028813,
+"raw_xy_err_at_grasp": 0.004804106132019739,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007894214819143597,
+"tcp_track_rmse": 0.0007172733548610836,
+"q_est_rmse": 0.00027548874668490407,
+"qd_est_rmse": 0.0055453617048182,
+"nees_joint_mean": 3.4477672515413484,
+"nis_joint_mean": 5.666480121772936,
+"obj_nees_mean": 4.822543781102359,
+"nis_obj_mean": 2.0355480625435844,
+"effort_rms": 3.4921995995779596,
+"u_chatter": 0.004967588993094667,
+"obj_updates": 42,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007312351452689193,
+"obj_vel_err_at_grasp": 0.0005514437258279358,
+"grasp_check": {
+"rel": [
+-9.420915706925102e-05,
+-0.0013657920523239735,
+6.0753765372629985e-05
+],
+"psi": -0.0011856886618453188,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 28,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.409999999999406,
+"cube_xy": [
+0.2566650542383942,
+0.1539571816307454
+],
+"cube_yaw": 0.4173739775147083,
+"grasp_err": [
+0.00014558037847792174,
+-0.0002650993955014523,
+0.0003092673867036089
+],
+"grasp_err_norm": 0.00043257097980734904,
+"obj_err_at_grasp": [
+0.00014476988563533189,
+0.0006072011054518434,
+-0.0007159087298492101,
+0.004267496131099557
+],
+"obj_xy_err_at_grasp": 0.0006242207159721693,
+"raw_xy_err_at_grasp": 0.002263819809628216,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007935605493246811,
+"tcp_track_rmse": 0.0007399947441011668,
+"q_est_rmse": 0.00027735413198828044,
+"qd_est_rmse": 0.005231678793694356,
+"nees_joint_mean": 3.4980824293569994,
+"nis_joint_mean": 5.356293636957484,
+"obj_nees_mean": 3.609859327020017,
+"nis_obj_mean": 1.5515315297639154,
+"effort_rms": 3.249151797240807,
+"u_chatter": 0.00494967404909565,
+"obj_updates": 42,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007053242125040357,
+"obj_vel_err_at_grasp": 0.0009105310023133237,
+"grasp_check": {
+"rel": [
+0.00015326679141018364,
+-0.00018149325502512463,
+0.00011410553781347571
+],
+"psi": -0.0022133886169926065,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 29,
+"success": false,
+"lifted": false,
+"diverged": false,
+"final_phase": 6,
+"time": 4.699999999999704,
+"cube_xy": [
+0.1845042273318662,
+0.0025289194285797456
+],
+"cube_yaw": 0.030212743091815097,
+"grasp_err": null,
+"grasp_err_norm": NaN,
+"obj_err_at_grasp": null,
+"obj_xy_err_at_grasp": NaN,
+"raw_xy_err_at_grasp": NaN,
+"cube_moved_before_grasp": 0.28187999999998226,
+"track_rmse": 0.0009180092060191544,
+"tcp_track_rmse": 0.0008470547918968214,
+"q_est_rmse": 0.00022349261673155208,
+"qd_est_rmse": 0.004302887700159739,
+"nees_joint_mean": 2.294651558865869,
+"nis_joint_mean": 5.192863637650443,
+"obj_nees_mean": 6.436242293573573,
+"nis_obj_mean": 2.31389331384252,
+"effort_rms": 3.2655443005876688,
+"u_chatter": 0.00590417336799454,
+"obj_updates": 36,
+"obj_rejected": 1,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.008904430113531318,
+"obj_vel_err_at_grasp": null,
+"grasp_check": null,
+"condition": "moving_0.06"
+},
+{
+"seed": 30,
+"success": false,
+"lifted": false,
+"diverged": false,
+"final_phase": 6,
+"time": 5.109999999999659,
+"cube_xy": [
+0.20122189243312794,
+-0.028357200533675547
+],
+"cube_yaw": -0.6404560479332524,
+"grasp_err": null,
+"grasp_err_norm": NaN,
+"obj_err_at_grasp": null,
+"obj_xy_err_at_grasp": NaN,
+"raw_xy_err_at_grasp": NaN,
+"cube_moved_before_grasp": 0.30647999999997955,
+"track_rmse": 0.0008465742386614477,
+"tcp_track_rmse": 0.000753300343819594,
+"q_est_rmse": 0.0002317154322479468,
+"qd_est_rmse": 0.004516157646816702,
+"nees_joint_mean": 2.557830269622755,
+"nis_joint_mean": 5.765234016109433,
+"obj_nees_mean": 3.3858526980157775,
+"nis_obj_mean": 0.9901692943864245,
+"effort_rms": 3.3466302019043983,
+"u_chatter": 0.0054961970785618475,
+"obj_updates": 40,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.008462042372774349,
+"obj_vel_err_at_grasp": null,
+"grasp_check": null,
+"condition": "moving_0.06"
+},
+{
+"seed": 31,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.129999999999437,
+"cube_xy": [
+0.26128546298233746,
+-0.17292869505534678
+],
+"cube_yaw": 0.27132492831314425,
+"grasp_err": [
+0.000864538596868982,
+-0.001580652775709928,
+0.0004497089100196979
+],
+"grasp_err_norm": 0.0018569136454307164,
+"obj_err_at_grasp": [
+0.0002047071107040277,
+0.0011785876513679405,
+-0.0007942905304842533,
+0.0070944102812890986
+],
+"obj_xy_err_at_grasp": 0.001196233193457609,
+"raw_xy_err_at_grasp": 0.0017693844501939717,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007888961302457121,
+"tcp_track_rmse": 0.0007271551795581906,
+"q_est_rmse": 0.00026296293008986764,
+"qd_est_rmse": 0.005126222326111595,
+"nees_joint_mean": 3.133362261698086,
+"nis_joint_mean": 5.494556415844584,
+"obj_nees_mean": 5.365389304774981,
+"nis_obj_mean": 2.393657948236315,
+"effort_rms": 3.156992810301442,
+"u_chatter": 0.004893089210619501,
+"obj_updates": 49,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007235457712579417,
+"obj_vel_err_at_grasp": 0.000540297225376224,
+"grasp_check": {
+"rel": [
+0.0007495589517030149,
+-0.0015968718643060331,
+0.00014239280037538134
+],
+"psi": -0.0017523129846255259,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 32,
+"success": false,
+"lifted": false,
+"diverged": false,
+"final_phase": 6,
+"time": 5.139999999999656,
+"cube_xy": [
+0.1944218547337291,
+0.028891798188833556
+],
+"cube_yaw": -0.1929950205310127,
+"grasp_err": null,
+"grasp_err_norm": NaN,
+"obj_err_at_grasp": null,
+"obj_xy_err_at_grasp": NaN,
+"raw_xy_err_at_grasp": NaN,
+"cube_moved_before_grasp": 0.30827999999997935,
+"track_rmse": 0.0008644858574781835,
+"tcp_track_rmse": 0.0008131234770739161,
+"q_est_rmse": 0.00022744003631590645,
+"qd_est_rmse": 0.0044134654619218654,
+"nees_joint_mean": 2.2935743633387458,
+"nis_joint_mean": 5.177546034045108,
+"obj_nees_mean": 3.5776943620003645,
+"nis_obj_mean": 1.8728416971758273,
+"effort_rms": 3.34882984790354,
+"u_chatter": 0.005513852925119402,
+"obj_updates": 42,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.008565145358399927,
+"obj_vel_err_at_grasp": null,
+"grasp_check": null,
+"condition": "moving_0.06"
+},
+{
+"seed": 33,
+"success": false,
+"lifted": false,
+"diverged": false,
+"final_phase": 6,
+"time": 5.109999999999659,
+"cube_xy": [
+0.21992780132664005,
+0.02739647676982257
+],
+"cube_yaw": 0.6410479106595866,
+"grasp_err": null,
+"grasp_err_norm": NaN,
+"obj_err_at_grasp": null,
+"obj_xy_err_at_grasp": NaN,
+"raw_xy_err_at_grasp": NaN,
+"cube_moved_before_grasp": 0.30647999999997955,
+"track_rmse": 0.0013682881105903369,
+"tcp_track_rmse": 0.0008253736401724202,
+"q_est_rmse": 0.0002269877931346804,
+"qd_est_rmse": 0.004420222467128287,
+"nees_joint_mean": 2.27130611093973,
+"nis_joint_mean": 5.28069292783378,
+"obj_nees_mean": 6.588247604384283,
+"nis_obj_mean": 3.2465461851979174,
+"effort_rms": 3.430917364311962,
+"u_chatter": 0.008133443586554453,
+"obj_updates": 34,
+"obj_rejected": 8,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.00865616175126301,
+"obj_vel_err_at_grasp": null,
+"grasp_check": null,
+"condition": "moving_0.06"
+},
+{
+"seed": 34,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.199999999999429,
+"cube_xy": [
+0.18036254191437393,
+0.14887076570821695
+],
+"cube_yaw": -0.40409931259101134,
+"grasp_err": [
+0.0006821837769692421,
+3.270644528237769e-05,
+0.0003270672541403017
+],
+"grasp_err_norm": 0.0007572432937001862,
+"obj_err_at_grasp": [
+0.0007461821763065368,
+0.0003550543069243406,
+-0.0008113773832638359,
+0.003335844307284619
+],
+"obj_xy_err_at_grasp": 0.0008263482323470436,
+"raw_xy_err_at_grasp": 0.0018563773303739294,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0008305268521145889,
+"tcp_track_rmse": 0.000751164454022078,
+"q_est_rmse": 0.0002775473467563018,
+"qd_est_rmse": 0.005402451154976066,
+"nees_joint_mean": 3.554697344363559,
+"nis_joint_mean": 5.36813282670754,
+"obj_nees_mean": 3.2665811809489584,
+"nis_obj_mean": 1.469215534419438,
+"effort_rms": 2.920735320342277,
+"u_chatter": 0.005196582620715173,
+"obj_updates": 40,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.00719074489565417,
+"obj_vel_err_at_grasp": 0.0007322379475894166,
+"grasp_check": {
+"rel": [
+0.0006161648035422941,
+-1.4419476501216972e-05,
+6.4733678834275e-05
+],
+"psi": -0.0011109984631891834,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 35,
+"success": false,
+"lifted": false,
+"diverged": false,
+"final_phase": 6,
+"time": 4.909999999999681,
+"cube_xy": [
+0.21041546029953523,
+-0.016601777558658826
+],
+"cube_yaw": 0.6833071634455012,
+"grasp_err": null,
+"grasp_err_norm": NaN,
+"obj_err_at_grasp": null,
+"obj_xy_err_at_grasp": NaN,
+"raw_xy_err_at_grasp": NaN,
+"cube_moved_before_grasp": 0.29447999999998087,
+"track_rmse": 0.0008318327752956874,
+"tcp_track_rmse": 0.0007829298030422187,
+"q_est_rmse": 0.00023893359539370416,
+"qd_est_rmse": 0.004580416339493549,
+"nees_joint_mean": 2.514732899472898,
+"nis_joint_mean": 5.411581851792965,
+"obj_nees_mean": 4.457575212927828,
+"nis_obj_mean": 1.2802229289812261,
+"effort_rms": 3.4096471271253224,
+"u_chatter": 0.0052214529990799894,
+"obj_updates": 37,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.008747461464843056,
+"obj_vel_err_at_grasp": null,
+"grasp_check": null,
+"condition": "moving_0.06"
+},
+{
+"seed": 36,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.179999999999431,
+"cube_xy": [
+0.19625697821017524,
+-0.04070529570573264
+],
+"cube_yaw": 0.6186304929003696,
+"grasp_err": [
+0.0011349140509170103,
+-0.0014099444186558853,
+0.0006751137265251467
+],
+"grasp_err_norm": 0.0019317742389861222,
+"obj_err_at_grasp": [
+-0.00013522234698490343,
+0.0010020883277286896,
+-0.0007693486142519301,
+-0.004768118919582953
+],
+"obj_xy_err_at_grasp": 0.0010111706580464978,
+"raw_xy_err_at_grasp": 0.0009944864592839454,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007607390562700306,
+"tcp_track_rmse": 0.0006975024934077027,
+"q_est_rmse": 0.000236038860696796,
+"qd_est_rmse": 0.004635152815846159,
+"nees_joint_mean": 2.566880419320091,
+"nis_joint_mean": 5.339960990262784,
+"obj_nees_mean": 4.139938101752087,
+"nis_obj_mean": 1.4318441645511477,
+"effort_rms": 3.355942598085286,
+"u_chatter": 0.00486601320181198,
+"obj_updates": 43,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007147784576950638,
+"obj_vel_err_at_grasp": 0.0005723754582120633,
+"grasp_check": {
+"rel": [
+0.0001236783811708225,
+-0.0003855502181676966,
+0.00026376505684891827
+],
+"psi": -0.008701515916060831,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 37,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.499999999999396,
+"cube_xy": [
+0.24337377284522127,
+0.06466748832098962
+],
+"cube_yaw": -0.6770238413504948,
+"grasp_err": [
+0.000977966200255435,
+-0.00024050579573087007,
+0.0003204639055201694
+],
+"grasp_err_norm": 0.0010568623568674555,
+"obj_err_at_grasp": [
+0.0008401013689660064,
+8.332495787971572e-05,
+-0.0007811192026071605,
+0.013439691761569117
+],
+"obj_xy_err_at_grasp": 0.0008442235241594577,
+"raw_xy_err_at_grasp": 0.0015439224467578305,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007331262294073828,
+"tcp_track_rmse": 0.0007183281702601305,
+"q_est_rmse": 0.00024676127780655447,
+"qd_est_rmse": 0.004782897273757317,
+"nees_joint_mean": 2.7332012712120286,
+"nis_joint_mean": 5.253009809935973,
+"obj_nees_mean": 4.16630590123196,
+"nis_obj_mean": 2.2330155313534816,
+"effort_rms": 3.640058252855117,
+"u_chatter": 0.0046475083808959336,
+"obj_updates": 44,
+"obj_rejected": 1,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007078722195316447,
+"obj_vel_err_at_grasp": 0.0003660279662649915,
+"grasp_check": {
+"rel": [
+0.0009503888823425984,
+-0.000230311148405186,
+9.117625485498928e-05
+],
+"psi": 0.0009515989412238746,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 38,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.179999999999431,
+"cube_xy": [
+0.22371849403540808,
+-0.10010565637396898
+],
+"cube_yaw": 0.3461739266933319,
+"grasp_err": [
+0.0009030623532309452,
+-0.0015774873889317757,
+0.0004875835495925263
+],
+"grasp_err_norm": 0.0018819473408932172,
+"obj_err_at_grasp": [
+0.0001346910472788121,
+0.001152906504477108,
+-0.0007476013060729834,
+0.0009800494091698475
+],
+"obj_xy_err_at_grasp": 0.0011607476410842657,
+"raw_xy_err_at_grasp": 0.0010527482603508089,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007810195796288363,
+"tcp_track_rmse": 0.0007131595277397857,
+"q_est_rmse": 0.00026945575739740097,
+"qd_est_rmse": 0.005473291205376974,
+"nees_joint_mean": 3.1181330729509136,
+"nis_joint_mean": 5.769110727009058,
+"obj_nees_mean": 4.467253610840881,
+"nis_obj_mean": 1.4359555754990556,
+"effort_rms": 3.2370871084666435,
+"u_chatter": 0.004881463500246177,
+"obj_updates": 46,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.0071392170280899885,
+"obj_vel_err_at_grasp": 0.0007478572752140685,
+"grasp_check": {
+"rel": [
+0.0008091130369691581,
+-0.0015865435944007402,
+0.00021560278407611823
+],
+"psi": -0.001968804035550775,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 39,
+"success": false,
+"lifted": false,
+"diverged": false,
+"final_phase": 6,
+"time": 4.909999999999681,
+"cube_xy": [
+0.22515407614362673,
+0.015734162482595432
+],
+"cube_yaw": -0.5719674660598932,
+"grasp_err": null,
+"grasp_err_norm": NaN,
+"obj_err_at_grasp": null,
+"obj_xy_err_at_grasp": NaN,
+"raw_xy_err_at_grasp": NaN,
+"cube_moved_before_grasp": 0.29447999999998087,
+"track_rmse": 0.0008547631869642622,
+"tcp_track_rmse": 0.0008364738503553463,
+"q_est_rmse": 0.0002257849951336814,
+"qd_est_rmse": 0.00445090953459317,
+"nees_joint_mean": 2.391340540206913,
+"nis_joint_mean": 5.342124571262824,
+"obj_nees_mean": 5.30172540190789,
+"nis_obj_mean": 2.6431000990270417,
+"effort_rms": 3.4266899056019606,
+"u_chatter": 0.005388251108091898,
+"obj_updates": 39,
+"obj_rejected": 1,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.008726272408042909,
+"obj_vel_err_at_grasp": null,
+"grasp_check": null,
+"condition": "moving_0.06"
+},
+{
+"seed": 40,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.409999999999406,
+"cube_xy": [
+0.2456908645738246,
+0.07736598272075212
+],
+"cube_yaw": 0.6941679106055467,
+"grasp_err": [
+0.00012141280190579401,
+-0.00013928521811249248,
+0.0006735815148093579
+],
+"grasp_err_norm": 0.0006984651011640664,
+"obj_err_at_grasp": [
+-0.00021388070149777616,
+0.0007242410370000563,
+-0.0007380170805216732,
+0.00465791289045514
+],
+"obj_xy_err_at_grasp": 0.0007551622568349783,
+"raw_xy_err_at_grasp": 0.002663696398343517,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0008365968624747813,
+"tcp_track_rmse": 0.0007624669392370059,
+"q_est_rmse": 0.00030172948087288224,
+"qd_est_rmse": 0.005837091228412822,
+"nees_joint_mean": 3.9974762890887385,
+"nis_joint_mean": 5.5471914562448195,
+"obj_nees_mean": 4.040637919561312,
+"nis_obj_mean": 2.057485172940631,
+"effort_rms": 3.5845317032977384,
+"u_chatter": 0.00526917788903587,
+"obj_updates": 44,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007087284415250727,
+"obj_vel_err_at_grasp": 0.0006541933460118523,
+"grasp_check": {
+"rel": [
+4.721970024193323e-05,
+-0.00012189036782681214,
+0.00045204765298543625
+],
+"psi": 0.005483067738304648,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 41,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.339999999999414,
+"cube_xy": [
+0.26587359926658044,
+0.10717283625423973
+],
+"cube_yaw": -0.5875237770589304,
+"grasp_err": [
+0.000960194914119117,
+-0.0003283496020003912,
+0.0003427322106355668
+],
+"grasp_err_norm": 0.0010710990161703895,
+"obj_err_at_grasp": [
+0.0009738473226281741,
+0.0002324242939222565,
+-0.0007314581878580979,
+0.006733029022381154
+],
+"obj_xy_err_at_grasp": 0.0010011991111638695,
+"raw_xy_err_at_grasp": 0.003931005450128763,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007512249115073027,
+"tcp_track_rmse": 0.0007464010699968444,
+"q_est_rmse": 0.0002780860628705772,
+"qd_est_rmse": 0.0053687117689518345,
+"nees_joint_mean": 3.452622974499434,
+"nis_joint_mean": 5.497009955844571,
+"obj_nees_mean": 3.907220810200246,
+"nis_obj_mean": 1.7616354807595271,
+"effort_rms": 3.5480476925976214,
+"u_chatter": 0.0046495349566859885,
+"obj_updates": 42,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007123831756518424,
+"obj_vel_err_at_grasp": 0.0005982359470309231,
+"grasp_check": {
+"rel": [
+0.0009560922949590232,
+-0.0003182140425298719,
+0.00016384297769097593
+],
+"psi": 0.005490921109562397,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 42,
+"success": false,
+"lifted": false,
+"diverged": false,
+"final_phase": 6,
+"time": 5.039999999999667,
+"cube_xy": [
+0.24965604437003672,
+-0.024448624099179084
+],
+"cube_yaw": 0.5632842953930901,
+"grasp_err": null,
+"grasp_err_norm": NaN,
+"obj_err_at_grasp": null,
+"obj_xy_err_at_grasp": NaN,
+"raw_xy_err_at_grasp": NaN,
+"cube_moved_before_grasp": 0.30227999999998,
+"track_rmse": 0.0008064757142781297,
+"tcp_track_rmse": 0.000758009718180381,
+"q_est_rmse": 0.00023598186525580786,
+"qd_est_rmse": 0.004580146579101197,
+"nees_joint_mean": 2.4011769831899596,
+"nis_joint_mean": 5.162204549875877,
+"obj_nees_mean": 4.53449203793632,
+"nis_obj_mean": 1.62749526209883,
+"effort_rms": 3.600784095553111,
+"u_chatter": 0.005038301794200326,
+"obj_updates": 39,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.008675540394167056,
+"obj_vel_err_at_grasp": null,
+"grasp_check": null,
+"condition": "moving_0.06"
+},
+{
+"seed": 43,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.119999999999438,
+"cube_xy": [
+0.23870693364308196,
+-0.18248987054440136
+],
+"cube_yaw": -0.7539357619082092,
+"grasp_err": [
+-2.992415762134748e-05,
+-0.001540909173722644,
+0.00041459396179968215
+],
+"grasp_err_norm": 0.0015959901910828603,
+"obj_err_at_grasp": [
+0.0008655992120897293,
+0.0004529832816365792,
+-0.0007980078832612765,
+-0.0048836790134377805
+],
+"obj_xy_err_at_grasp": 0.0009769625629534658,
+"raw_xy_err_at_grasp": 0.0021762318188106567,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0008026041303011515,
+"tcp_track_rmse": 0.0007264988435034774,
+"q_est_rmse": 0.0002833744593728161,
+"qd_est_rmse": 0.005368037658216722,
+"nees_joint_mean": 3.538315779229148,
+"nis_joint_mean": 5.706612457122654,
+"obj_nees_mean": 5.357103242230287,
+"nis_obj_mean": 2.0651707647530553,
+"effort_rms": 2.987274871758197,
+"u_chatter": 0.004979179509854622,
+"obj_updates": 48,
+"obj_rejected": 1,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.00720398698726949,
+"obj_vel_err_at_grasp": 0.0004202384128909627,
+"grasp_check": {
+"rel": [
+-8.315626207682178e-05,
+-0.0014804646883845487,
+0.00016371437295186394
+],
+"psi": -0.00519460701431651,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 44,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.09999999999944,
+"cube_xy": [
+0.19103089587064845,
+-0.0967547700908908
+],
+"cube_yaw": -0.1480149946151238,
+"grasp_err": [
+0.00026542626609858005,
+-0.0015816934801386943,
+0.0002726685420490988
+],
+"grasp_err_norm": 0.0016268231316499866,
+"obj_err_at_grasp": [
+0.0005842003766377002,
+0.0009783846860877132,
+-0.0008672550807144706,
+0.0016024885584768889
+],
+"obj_xy_err_at_grasp": 0.0011395291457591526,
+"raw_xy_err_at_grasp": 0.000559548747089303,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0008129035686226634,
+"tcp_track_rmse": 0.0007583715160979002,
+"q_est_rmse": 0.00029216109126502715,
+"qd_est_rmse": 0.005524905352258069,
+"nees_joint_mean": 3.859212297968759,
+"nis_joint_mean": 5.730363146420267,
+"obj_nees_mean": 3.8682387319301816,
+"nis_obj_mean": 1.5057935062685543,
+"effort_rms": 3.058691685715238,
+"u_chatter": 0.004990645495673664,
+"obj_updates": 45,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.0071879090036730325,
+"obj_vel_err_at_grasp": 0.0007426789622099843,
+"grasp_check": {
+"rel": [
+0.0003409697249264619,
+-0.001634864374277659,
+8.818285503632277e-05
+],
+"psi": 0.0019631342904307125,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 45,
+"success": false,
+"lifted": false,
+"diverged": false,
+"final_phase": 6,
+"time": 4.849999999999688,
+"cube_xy": [
+0.2315817591252755,
+0.011396458068081122
+],
+"cube_yaw": 0.41414082823945897,
+"grasp_err": null,
+"grasp_err_norm": NaN,
+"obj_err_at_grasp": null,
+"obj_xy_err_at_grasp": NaN,
+"raw_xy_err_at_grasp": NaN,
+"cube_moved_before_grasp": 0.29087999999998126,
+"track_rmse": 0.000916763556265762,
+"tcp_track_rmse": 0.0008284807684074944,
+"q_est_rmse": 0.00022824708452735438,
+"qd_est_rmse": 0.00447493057216863,
+"nees_joint_mean": 2.377390421593602,
+"nis_joint_mean": 5.320977855069183,
+"obj_nees_mean": 4.706985590997656,
+"nis_obj_mean": 2.4594129655554293,
+"effort_rms": 3.3958980322370333,
+"u_chatter": 0.0058926282722225505,
+"obj_updates": 37,
+"obj_rejected": 2,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.008664344173240818,
+"obj_vel_err_at_grasp": null,
+"grasp_check": null,
+"condition": "moving_0.06"
+},
+{
+"seed": 46,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.209999999999428,
+"cube_xy": [
+0.26150438490212813,
+-0.16910928271530273
+],
+"cube_yaw": -0.3572465920050706,
+"grasp_err": [
+5.4479143442934164e-05,
+-0.001580376377662817,
+0.00036871878928493974
+],
+"grasp_err_norm": 0.0016237336658814076,
+"obj_err_at_grasp": [
+0.000692875363258294,
+0.0007897616233914773,
+-0.0007743255371037427,
+0.007903469411017605
+],
+"obj_xy_err_at_grasp": 0.001050618718085802,
+"raw_xy_err_at_grasp": 0.0013665903916670482,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.0007727540156743198,
+"tcp_track_rmse": 0.0007208953070806025,
+"q_est_rmse": 0.00028585846575344563,
+"qd_est_rmse": 0.00538267828845775,
+"nees_joint_mean": 3.552588530891617,
+"nis_joint_mean": 5.400921267151158,
+"obj_nees_mean": 6.818370898726725,
+"nis_obj_mean": 2.0209224235092407,
+"effort_rms": 3.1829746388382545,
+"u_chatter": 0.004775803388047246,
+"obj_updates": 47,
+"obj_rejected": 2,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007239968804684063,
+"obj_vel_err_at_grasp": 0.0003944168326723713,
+"grasp_check": {
+"rel": [
+0.0001815623907015179,
+-0.0015689238721322283,
+0.00020397730745252718
+],
+"psi": 0.003397031786629867,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 47,
+"success": true,
+"lifted": true,
+"diverged": false,
+"final_phase": 5,
+"time": 7.339999999999414,
+"cube_xy": [
+0.24676217951783047,
+0.10146752684784316
+],
+"cube_yaw": -0.05469428265010268,
+"grasp_err": [
+0.0006362876661710383,
+-1.4043239924102306e-05,
+0.0005092540145424537
+],
+"grasp_err_norm": 0.000815106654393496,
+"obj_err_at_grasp": [
+0.0005722952119391889,
+0.0006722708623843332,
+-0.0007590901842109039,
+-0.003493056588398047
+],
+"obj_xy_err_at_grasp": 0.0008828759380680256,
+"raw_xy_err_at_grasp": 0.0042717980347937775,
+"cube_moved_before_grasp": 0.0,
+"track_rmse": 0.000785817076414297,
+"tcp_track_rmse": 0.0007455223765088275,
+"q_est_rmse": 0.0002848101724790109,
+"qd_est_rmse": 0.005771339294379701,
+"nees_joint_mean": 3.6391009509692895,
+"nis_joint_mean": 5.4060216706664495,
+"obj_nees_mean": 6.115560888884114,
+"nis_obj_mean": 2.707291344071796,
+"effort_rms": 3.4358402724316623,
+"u_chatter": 0.004848981305118957,
+"obj_updates": 40,
+"obj_rejected": 2,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.007254983802108865,
+"obj_vel_err_at_grasp": 0.0005270610154007295,
+"grasp_check": {
+"rel": [
+0.000595641645660504,
+-0.00013756306420919547,
+0.00023311191840002705
+],
+"psi": 0.001616110317297359,
+"ok": true
+},
+"condition": "moving_0.06"
+},
+{
+"seed": 48,
+"success": false,
+"lifted": false,
+"diverged": false,
+"final_phase": 6,
+"time": 5.299999999999638,
+"cube_xy": [
+0.2148929885057035,
+0.038309396011736
+],
+"cube_yaw": 0.021677845478606517,
+"grasp_err": null,
+"grasp_err_norm": NaN,
+"obj_err_at_grasp": null,
+"obj_xy_err_at_grasp": NaN,
+"raw_xy_err_at_grasp": NaN,
+"cube_moved_before_grasp": 0.3178799999999783,
+"track_rmse": 0.000846169638125735,
+"tcp_track_rmse": 0.0007960355956836136,
+"q_est_rmse": 0.00022441096691702895,
+"qd_est_rmse": 0.004366386305841462,
+"nees_joint_mean": 2.3156749843453923,
+"nis_joint_mean": 5.4432576182743615,
+"obj_nees_mean": 4.276505162389546,
+"nis_obj_mean": 2.8104037052355113,
+"effort_rms": 3.4006100154811745,
+"u_chatter": 0.005435206406218069,
+"obj_updates": 42,
+"obj_rejected": 0,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.008385320176991836,
+"obj_vel_err_at_grasp": null,
+"grasp_check": null,
+"condition": "moving_0.06"
+},
+{
+"seed": 49,
+"success": false,
+"lifted": false,
+"diverged": false,
+"final_phase": 6,
+"time": 5.2799999999996405,
+"cube_xy": [
+0.21265687730485228,
+0.03728690406789292
+],
+"cube_yaw": -0.16972421015762218,
+"grasp_err": null,
+"grasp_err_norm": NaN,
+"obj_err_at_grasp": null,
+"obj_xy_err_at_grasp": NaN,
+"raw_xy_err_at_grasp": NaN,
+"cube_moved_before_grasp": 0.3166799999999784,
+"track_rmse": 0.000854458392896051,
+"tcp_track_rmse": 0.0008008517304816931,
+"q_est_rmse": 0.0002386288369272162,
+"qd_est_rmse": 0.0044746709083593504,
+"nees_joint_mean": 2.4404364768700435,
+"nis_joint_mean": 5.2919677591094425,
+"obj_nees_mean": 5.25606253480862,
+"nis_obj_mean": 2.3704078235140975,
+"effort_rms": 3.3988785127597154,
+"u_chatter": 0.005401584702450727,
+"obj_updates": 39,
+"obj_rejected": 3,
+"obj_speed": 0.06,
+"obj_vel_rmse": 0.00854320068220502,
+"obj_vel_err_at_grasp": null,
+"grasp_check": null,
+"condition": "moving_0.06"
+}
+]

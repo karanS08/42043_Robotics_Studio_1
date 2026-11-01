@@ -1,0 +1,4 @@
+# Hardware extras. Only needed to drive the real UR3e; the simulation does not import these.
+#   .venv/bin/pip install -r requirements-hw.txt
+ur_rtde==1.6.0            # UR RTDE control/receive/io
+pyrealsense2==2.56.5.9235 # Intel RealSense RGB-D (skip if the wrist camera is not a RealSense)

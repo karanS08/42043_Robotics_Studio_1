@@ -1,0 +1,9 @@
+IMAGEIO FFMPEG_WRITER WARNING: input image is not divisible by macro_block_size=8, resizing from (1380, 480) to (1384, 480) to ensure video compatibility with most codecs and players. To prevent resizing, make your input image divisible by the macro_block_size or set the macro_block_size to 1 (risking incompatibility).
+IMAGEIO FFMPEG_WRITER WARNING: input image is not divisible by macro_block_size=8, resizing from (1380, 480) to (1384, 480) to ensure video compatibility with most codecs and players. To prevent resizing, make your input image divisible by the macro_block_size or set the macro_block_size to 1 (risking incompatibility).
+IMAGEIO FFMPEG_WRITER WARNING: input image is not divisible by macro_block_size=8, resizing from (1380, 480) to (1384, 480) to ensure video compatibility with most codecs and players. To prevent resizing, make your input image divisible by the macro_block_size or set the macro_block_size to 1 (risking incompatibility).
+IMAGEIO FFMPEG_WRITER WARNING: input image is not divisible by macro_block_size=8, resizing from (1380, 480) to (1384, 480) to ensure video compatibility with most codecs and players. To prevent resizing, make your input image divisible by the macro_block_size or set the macro_block_size to 1 (risking incompatibility).
+  nominal: success=True grasp_err=0.90 mm -> /home/karan/Development/RS1/assignment_final/ur3_pick/results/video/nominal.mp4 (183 frames)
+  noise_x4: success=True grasp_err=1.62 mm -> /home/karan/Development/RS1/assignment_final/ur3_pick/results/video/noise_x4.mp4 (183 frames)
+  cam_dropout: success=True grasp_err=0.41 mm -> /home/karan/Development/RS1/assignment_final/ur3_pick/results/video/cam_dropout.mp4 (242 frames)
+  force_25N: success=True grasp_err=0.90 mm -> /home/karan/Development/RS1/assignment_final/ur3_pick/results/video/force_25N.mp4 (183 frames)
+EXIT 0
