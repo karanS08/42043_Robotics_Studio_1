@@ -6,7 +6,8 @@
 | --- | --- |
 | Student | Karan Sharma |
 | Student ID | 26276485 |
-| Group | 35 — working solo (master's student enrolled in 42043) |
+| Group | 35 |
+| Team members | 1 — Karan Sharma (26276485), working solo as a master's student enrolled in 42043 |
 | Subject | 41014 Sensors and Control in Mechatronics Systems |
 | Platform | UR3e + eye-in-hand RGB-D camera, MuJoCo 3.15, with a real-hardware backend over RTDE |
 
