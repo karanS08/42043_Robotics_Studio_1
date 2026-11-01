@@ -216,7 +216,6 @@ untested, and the stage that closes each:
 | [`ur3_pick/README.md`](ur3_pick/README.md) | The full report: model, sensing, estimation, control, failure analysis, robustness |
 | [`ur3_pick/docs/RESULTS.md`](ur3_pick/docs/RESULTS.md) | Generated results tables |
 | [`ur3_pick/docs/hardware_bringup.md`](ur3_pick/docs/hardware_bringup.md) | Stage-by-stage hardware procedure |
-| [`ur3_pick/docs/viva_prep.md`](ur3_pick/docs/viva_prep.md) | Viva questions and answers |
 | [`ur3_pick/docs/video_script.md`](ur3_pick/docs/video_script.md) | 5-minute video script |
 | [`ur3_pick/docs/AI_declaration.md`](ur3_pick/docs/AI_declaration.md) | Generative-AI use declaration |
 | [`ur3_pick/docs/acknowledgements.md`](ur3_pick/docs/acknowledgements.md) | Third-party material |

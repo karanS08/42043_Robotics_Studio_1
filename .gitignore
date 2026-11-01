@@ -21,3 +21,7 @@ ur3_pick/results/segment/
 # Hardware run logs are written per session; keep them locally, commit one deliberately if it is
 # evidence for the report.
 ur3_pick/results/hw_*.npz
+
+# Private prep notes: kept on disk, deliberately not published.
+ur3_pick/docs/viva_prep.md
+ur3_pick/docs/email_to_teaching_team.md
