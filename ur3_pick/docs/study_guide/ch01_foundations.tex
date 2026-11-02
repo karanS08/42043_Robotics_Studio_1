@@ -117,15 +117,15 @@ the state is now, plus a linear combination of what I am commanding.} That is al
 With $\xv = [\qv; \dot{\qv}]$ and $\uv$ the joint position targets sent to the inner servo
 (\S\ref{sec:servo}, Chapter~2), the model derived in Chapter~9 is
 \[
-\Am = \begin{bmatrix} \bm{0} & \Im \\[2pt]
+\Am = \begin{bmatrix} \bm{0} & \Id \\[2pt]
       -\Mm^{-1}(\bm{K}_p + \partial \bm{g}/\partial \qv) & -\Mm^{-1}\bm{K}_d \end{bmatrix},
 \qquad
 \Bm = \begin{bmatrix} \bm{0} \\ \Mm^{-1}\bm{K}_p \end{bmatrix},
 \qquad
-\Cm = \begin{bmatrix} \Im & \bm{0} \end{bmatrix}.
+\Cm = \begin{bmatrix} \Id & \bm{0} \end{bmatrix}.
 \]
 The top row of $\Am$ says $\dot{\qv} = \dot{\qv}$ --- trivially true, and it is what couples the two halves
-of the state together. $\Cm = [\Im\ \ \bm{0}]$ says the encoders measure position and nothing else.
+of the state together. $\Cm = [\Id\ \ \bm{0}]$ says the encoders measure position and nothing else.
 \end{inproject}
 
 \begin{vivabox}
@@ -195,7 +195,7 @@ Under ZOH the exact discrete equivalent of $\dot{\xv} = \Am\xv + \Bm\uv$ is
 Both are computed in one step by exponentiating a block matrix:
 \[
 \exp\!\left(\begin{bmatrix} \Am & \Bm \\ \bm{0} & \bm{0}\end{bmatrix} dt\right)
-= \begin{bmatrix} \Am_d & \Bm_d \\ \bm{0} & \Im \end{bmatrix}.
+= \begin{bmatrix} \Am_d & \Bm_d \\ \bm{0} & \Id \end{bmatrix}.
 \]
 
 \begin{definition}{Matrix exponential}
@@ -203,7 +203,7 @@ $e^{\Am} = \sum_{k=0}^{\infty} \Am^k / k!$ --- the matrix generalisation of the 
 solves $\dot{\xv} = \Am\xv$ exactly: $\xv(t) = e^{\Am t}\xv(0)$.
 \end{definition}
 
-A cruder alternative is the \textbf{forward Euler} approximation $\Am_d \approx \Im + \Am\,dt$, which is
+A cruder alternative is the \textbf{forward Euler} approximation $\Am_d \approx \Id + \Am\,dt$, which is
 the first two terms of that series. It is only accurate when $|\lambda|\,dt \ll 1$ for every eigenvalue.
 
 \begin{inproject}
@@ -299,11 +299,11 @@ that argument.
 \end{intuition}
 
 \begin{inproject}
-This is the crux of the whole project. $\Cm = [\Im\ \ \bm{0}]$: encoders measure 6 of 12 states, so half
+This is the crux of the whole project. $\Cm = [\Id\ \ \bm{0}]$: encoders measure 6 of 12 states, so half
 the state is invisible. Yet
 \[
-\Cm\Am = \begin{bmatrix}\Im & \bm{0}\end{bmatrix}
-\begin{bmatrix}\bm{0} & \Im \\ \ast & \ast\end{bmatrix} = \begin{bmatrix}\bm{0} & \Im\end{bmatrix},
+\Cm\Am = \begin{bmatrix}\Id & \bm{0}\end{bmatrix}
+\begin{bmatrix}\bm{0} & \Id \\ \ast & \ast\end{bmatrix} = \begin{bmatrix}\bm{0} & \Id\end{bmatrix},
 \]
 so the second block row of $\mathcal{O}$ sees velocity directly --- because the derivative of a measured
 position \emph{is} the velocity. Rank is $12/12$: the velocities are observable, and so an estimator can
