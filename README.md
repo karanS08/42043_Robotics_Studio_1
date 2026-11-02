@@ -407,7 +407,7 @@ untested, and the stage that closes each:
 
 ## Demo video
 
-**5-minute demonstration:** `<!-- TODO: paste the video link here before submitting -->`
+| Demo video (5 minutes) | [youtu.be/ajmFyac9G6g](https://youtu.be/ajmFyac9G6g) 
 
 Covers what the marking guide requires of it: the system completing the task, at least one varied or
 disturbed trial, and the estimate with its uncertainty shown alongside the true state. The clips under
