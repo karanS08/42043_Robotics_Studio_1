@@ -24,4 +24,5 @@ ur3_pick/results/hw_*.npz
 
 # Private prep notes: kept on disk, deliberately not published.
 ur3_pick/docs/viva_prep.md
+ur3_pick/docs/viva_study_guide.md
 ur3_pick/docs/email_to_teaching_team.md
