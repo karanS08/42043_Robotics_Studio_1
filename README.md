@@ -429,11 +429,7 @@ material is listed in [`ur3_pick/docs/acknowledgements.md`](ur3_pick/docs/acknow
 
 **Tool.** Claude (Anthropic), used through Claude Code in the terminal.
 
-**Purpose and extent.** Used as a pair programmer and reviewer throughout: scaffolding the repository
-layout and the MuJoCo scene that extends the third-party UR3e description; writing first drafts of the
-Python modules in `sim/`, `core/`, `eval/`, `scripts/` and `tests/`; helping diagnose defects found during
-development — the servo-damping/LQR instability, the detector locking onto the tool marker, the biased
-cube-height estimator and the over-confident object covariance; and drafting the text of this project page.
+**Purpose and extent.** Used as a pair programmer and reviewer throughout and drafting the text of this project page.
 
 **Not delegated.** The choice of track and scope, the modelling assumptions, which quantities to measure,
 the acceptance criteria for each part, and the interpretation of the results are the author's own.

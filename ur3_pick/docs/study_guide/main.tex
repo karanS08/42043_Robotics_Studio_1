@@ -1,0 +1,128 @@
+\documentclass[11pt,oneside]{report}
+
+% ---------------------------------------------------------------- packages
+\usepackage[a4paper,margin=24mm,top=26mm,bottom=26mm]{geometry}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{booktabs,longtable,array}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{microtype}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage[hidelinks,bookmarksnumbered]{hyperref}
+
+% ---------------------------------------------------------------- colours
+\definecolor{defblue}{HTML}{1F4E79}
+\definecolor{defbg}{HTML}{EEF4FB}
+\definecolor{intgreen}{HTML}{2E6B3E}
+\definecolor{intbg}{HTML}{EFF7F0}
+\definecolor{projorange}{HTML}{8A4B08}
+\definecolor{projbg}{HTML}{FDF3E8}
+\definecolor{vivapurple}{HTML}{5B3A7E}
+\definecolor{vivabg}{HTML}{F4F0FA}
+\definecolor{warnred}{HTML}{9B2226}
+\definecolor{warnbg}{HTML}{FDEFEF}
+
+% ---------------------------------------------------------------- boxes
+\newtcolorbox{definition}[1]{enhanced,breakable,colback=defbg,colframe=defblue,
+  coltitle=white,fonttitle=\bfseries,title={Definition: #1},left=3mm,right=3mm,top=2mm,bottom=2mm}
+
+\newtcolorbox{intuition}[1][Intuition]{enhanced,breakable,colback=intbg,colframe=intgreen,
+  coltitle=white,fonttitle=\bfseries,title={#1},left=3mm,right=3mm,top=2mm,bottom=2mm}
+
+\newtcolorbox{inproject}[1][In this project]{enhanced,breakable,colback=projbg,colframe=projorange,
+  coltitle=white,fonttitle=\bfseries,title={#1},left=3mm,right=3mm,top=2mm,bottom=2mm}
+
+\newtcolorbox{vivabox}[1][Viva angle]{enhanced,breakable,colback=vivabg,colframe=vivapurple,
+  coltitle=white,fonttitle=\bfseries,title={#1},left=3mm,right=3mm,top=2mm,bottom=2mm}
+
+\newtcolorbox{pitfall}[1][Common misconception]{enhanced,breakable,colback=warnbg,colframe=warnred,
+  coltitle=white,fonttitle=\bfseries,title={#1},left=3mm,right=3mm,top=2mm,bottom=2mm}
+
+% ---------------------------------------------------------------- headers
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\nouppercase\leftmark}
+\fancyhead[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\color{defblue}}{\chaptertitlename\ \thechapter}{10pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{-20pt}{24pt}
+
+% ---------------------------------------------------------------- shorthands
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Norm}{\mathcal{N}}
+\newcommand{\qv}{\bm{q}}
+\newcommand{\xv}{\bm{x}}
+\newcommand{\uv}{\bm{u}}
+\newcommand{\yv}{\bm{y}}
+\newcommand{\Pm}{\bm{P}}
+\newcommand{\Km}{\bm{K}}
+\newcommand{\Am}{\bm{A}}
+\newcommand{\Bm}{\bm{B}}
+\newcommand{\Cm}{\bm{C}}
+\newcommand{\Qm}{\bm{Q}}
+\newcommand{\Rm}{\bm{R}}
+\newcommand{\Mm}{\bm{M}}
+\newcommand{\Im}{\bm{I}}
+\newcommand{\Tm}{\bm{T}}
+\newcommand{\code}[1]{\texttt{\small #1}}
+
+\setlist{itemsep=2pt,parsep=0pt,topsep=4pt}
+
+% ================================================================
+\begin{document}
+
+\begin{titlepage}
+\centering
+\vspace*{3cm}
+{\Huge\bfseries\color{defblue} Sensors and Control\par}
+\vspace{6mm}
+{\Huge\bfseries\color{defblue} A Ground-Up Study Guide\par}
+\vspace{12mm}
+{\Large From ``what is a state?'' to vision-guided manipulation\par}
+\vspace{20mm}
+{\large 41014 Sensors and Control in Mechatronics Systems\par}
+{\large Assessment 4 --- Integrated Project, Track B\par}
+\vspace{8mm}
+{\large Karan Sharma \textbar{} 26276485 \textbar{} Group 35\par}
+\vspace{25mm}
+\begin{tcolorbox}[enhanced,width=0.85\textwidth,colback=defbg,colframe=defblue,
+  coltitle=white,fonttitle=\bfseries,title={How to read this}]
+Every concept used anywhere in the project is defined here, starting from first principles and
+building up. Each topic has four parts:
+\medskip
+
+\textbf{Definition} --- the formal statement, with the mathematics.\\
+\textbf{Intuition} --- the same idea in plain language, with an analogy.\\
+\textbf{In this project} --- where it actually appears in the code and the results.\\
+\textbf{Viva angle} --- how an examiner is likely to probe it.
+\medskip
+
+Chapters 1--8 build the toolkit. Chapter 9 assembles it into the project. Chapter 10 is a one-line
+glossary of everything, for last-minute revision.
+\end{tcolorbox}
+\vfill
+{\small Private study material. Compiled \today.\par}
+\end{titlepage}
+
+\tableofcontents
+\clearpage
+
+\input{ch01_foundations}
+\input{ch02_robotics}
+\input{ch03_probability}
+\input{ch04_filtering}
+\input{ch05_control}
+\input{ch06_vision}
+\input{ch07_evaluation}
+\input{ch08_simulation}
+\input{ch09_project}
+\input{ch10_glossary}
+
+\end{document}
